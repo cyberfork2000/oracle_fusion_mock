@@ -1,0 +1,11 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/ar/customers"
+  },
+  "response": {
+    "status": 201,
+    "body": "{ \"customerId\": \"cust-001\", \"name\": \"Test Customer\" }",
+    "headers": { "Content-Type": "application/json" }
+  }
+}

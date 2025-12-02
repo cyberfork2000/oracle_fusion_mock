@@ -1,0 +1,7 @@
+{
+  "invoiceId": "INV001",
+  "paymentMethod": "BANK_TRANSFER",
+  "amount": 500.0,
+  "currency": "USD",
+  "paymentDate": "2025-11-27"
+}

@@ -1,0 +1,23 @@
+{
+  "journalId": "jrnl-001",
+  "journalDate": "2025-01-15",
+  "reference": "JE-TEST-001",
+  "description": "Monthly adjustment entry",
+  "currency": "USD",
+  "lines": [
+    {
+      "lineNumber": 1,
+      "account": "4000",
+      "description": "Revenue adjustment",
+      "debit": 0.00,
+      "credit": 500.00
+    },
+    {
+      "lineNumber": 2,
+      "account": "1200",
+      "description": "Accounts Receivable correction",
+      "debit": 500.00,
+      "credit": 0.00
+    }
+  ]
+}

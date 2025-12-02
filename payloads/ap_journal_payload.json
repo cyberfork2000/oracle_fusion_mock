@@ -1,0 +1,6 @@
+{
+  "invoiceId": "APINV001",
+  "status": "POSTED",
+  "totalDebit": 500.0,
+  "totalCredit": 500.0
+}

@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/expenses/payments",
+    "bodyPatterns": [
+      { "contains": "\"expenseId\": \"EXP098\"" }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "paymentId": "PAY-001",
+      "expenseId": "EXP098",
+      "paymentStatus": "SUCCESS"
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

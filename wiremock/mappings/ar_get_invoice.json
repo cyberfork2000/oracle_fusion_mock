@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/ar/invoices/.*"
+  },
+  "response": {
+    "status": 200,
+    "body": "{ \"invoiceId\": \"ar-inv-001\", \"status\": \"OPEN\", \"amount\": 750.00 }",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

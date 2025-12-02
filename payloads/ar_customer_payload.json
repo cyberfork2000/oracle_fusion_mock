@@ -1,0 +1,6 @@
+{
+  "name": "Test Customer",
+  "email": "customer@example.com",
+  "billingAddress": "456 Elm St",
+  "phone": "555-6789"
+}

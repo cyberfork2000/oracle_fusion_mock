@@ -1,0 +1,11 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/ap/payments"
+  },
+  "response": {
+    "status": 201,
+    "body": "{ \"paymentId\": \"PAY001\", \"paymentStatus\": \"SUCCESS\" }",
+    "headers": { "Content-Type": "application/json" }
+  }
+}

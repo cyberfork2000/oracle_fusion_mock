@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/api/gl/journals/JE-5001"
+  },
+  "response": {
+    "status": 200,
+    "headers": { "Content-Type": "application/json" },
+    "jsonBody": {
+      "journalEntryId": "JE-5001",
+      "status": "POSTED",
+      "totalDebit": 1500.0,
+      "totalCredit": 1500.0,
+      "entries": []
+    }
+  }
+}

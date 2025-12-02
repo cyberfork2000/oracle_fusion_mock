@@ -1,0 +1,11 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/ap/invoices/INV001"
+  },
+  "response": {
+    "status": 200,
+    "body": "{ \"invoiceId\": \"INV001\", \"status\": \"APPROVED\", \"amount\": 500.0 }",
+    "headers": { "Content-Type": "application/json" }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/gl/journals"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "reference": "JE-TEST-001",
+      "totalDebit": 500.00,
+      "totalCredit": 500.00,
+      "status": "POSTED"
+    }
+  }
+}

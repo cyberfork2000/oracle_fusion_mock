@@ -1,0 +1,11 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/ap/suppliers"
+  },
+  "response": {
+    "status": 201,
+    "body": "{ \"supplierId\": \"SUP001\", \"name\": \"Test Supplier\" }",
+    "headers": { "Content-Type": "application/json" }
+  }
+}

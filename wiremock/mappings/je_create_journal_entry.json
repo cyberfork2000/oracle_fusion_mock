@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/journals"
+  },
+  "response": {
+    "status": 201,
+    "jsonBody": {
+      "journalId": "jrnl-001",
+      "status": "DRAFT"
+    }
+  }
+}

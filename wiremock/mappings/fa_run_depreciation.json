@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/api/assets/AST-1001/depreciate"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "assetId": "AST-1001",
+      "period": "2025-11",
+      "depreciationAmount": 41.67,
+      "accumulatedDepreciation": 41.67,
+      "status": "simulated"
+    }
+  }
+}

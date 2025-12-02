@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/gl/journals",
+    "queryParameters": {
+      "reference": { "equalTo": "INV001" }
+    }
+  },
+  "response": {
+    "status": 200,
+    "body": "{ \"status\": \"POSTED\", \"totalDebit\": 500.0, \"totalCredit\": 500.0 }",
+    "headers": { "Content-Type": "application/json" }
+  }
+}

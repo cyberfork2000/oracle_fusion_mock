@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/ar/receipts"
+  },
+  "response": {
+    "status": 201,
+    "jsonBody": {
+      "receiptId": "rcpt-001",
+      "status": "APPLIED"
+    }
+  }
+}

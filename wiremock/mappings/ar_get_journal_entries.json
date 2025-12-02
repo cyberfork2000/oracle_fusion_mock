@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/ar/gl/journals\\?reference=.*"
+  },
+  "response": {
+    "status": 200,
+    "body": "{\"status\":\"POSTED\",\"totalDebit\":500.00,\"totalCredit\":500.00,\"entries\":[{\"account\":\"AR\",\"debit\":500.00,\"credit\":0},{\"account\":\"Revenue\",\"debit\":0,\"credit\":500.00}]}",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

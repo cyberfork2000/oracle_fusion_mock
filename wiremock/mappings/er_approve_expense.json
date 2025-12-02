@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPattern": "/expenses/EXP098/approve"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "expenseId": "EXP098",
+      "status": "APPROVED"
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

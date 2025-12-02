@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/journals",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$[?(@.lines[0].debit != @.lines[1].credit)]"
+      }
+    ]
+  },
+  "response": {
+    "status": 400,
+    "jsonBody": {
+      "error": "Debit and Credit totals do not match"
+    }
+  }
+}

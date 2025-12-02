@@ -1,0 +1,6 @@
+{
+  "name": "Test Supplier",
+  "address": "123 Main St",
+  "taxId": "TAX123",
+  "currency": "USD"
+}

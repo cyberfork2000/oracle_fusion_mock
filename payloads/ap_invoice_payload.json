@@ -1,0 +1,7 @@
+{
+  "supplierId": "SUP001",
+  "amount": 500.0,
+  "currency": "USD",
+  "description": "Office supplies",
+  "dueDate": "2025-12-31"
+}

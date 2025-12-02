@@ -1,0 +1,19 @@
+{
+  "journalId": "jnl-invalid-001",
+  "description": "Invalid journal entry with mismatched DR/CR",
+  "date": "2025-11-26",
+  "lines": [
+    {
+      "account": "1000",
+      "description": "Cash",
+      "debit": 1200.00,
+      "credit": 0.00
+    },
+    {
+      "account": "2000",
+      "description": "Revenue",
+      "debit": 0.00,
+      "credit": 1000.00
+    }
+  ]
+}

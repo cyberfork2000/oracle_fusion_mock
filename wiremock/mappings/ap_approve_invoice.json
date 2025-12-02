@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/ap/invoices/INV001/actions",
+    "bodyPatterns": [
+      { "matchesJsonPath": "$[?(@.action == 'APPROVE')]" }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "body": "{ \"invoiceId\": \"INV001\", \"status\": \"APPROVED\" }",
+    "headers": { "Content-Type": "application/json" }
+  }
+}

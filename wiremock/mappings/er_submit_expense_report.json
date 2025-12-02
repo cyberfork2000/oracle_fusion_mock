@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/expenses",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$[?(@.amount < 1000)]"
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "expenseId": "EXP098",
+      "status": "SUBMITTED"
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/api/assets/AST-1001/retire"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "assetId": "AST-1001",
+      "status": "retired",
+      "journalEntryId": "JE-5001"
+    }
+  }
+}

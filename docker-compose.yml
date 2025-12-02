@@ -1,0 +1,12 @@
+services:
+  wiremock:
+    image: wiremock/wiremock:3.5.2
+    container_name: wiremock
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./wiremock:/home/wiremock
+    command:
+      - "--verbose"
+      - "--global-response-templating"
+      - "--root-dir=/home/wiremock"

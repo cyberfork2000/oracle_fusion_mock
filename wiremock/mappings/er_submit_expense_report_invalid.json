@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/expenses",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$[?(@.amount >= 1000)]"
+      }
+    ]
+  },
+  "response": {
+    "status": 400,
+    "jsonBody": {
+      "message": "Expense exceeds policy limit",
+      "code": "EXPENSE_POLICY_LIMIT"
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
